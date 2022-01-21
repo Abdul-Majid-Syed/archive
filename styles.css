@@ -1,0 +1,126 @@
+p {
+    font-size: 50px;
+}
+
+ul{
+    font-size: 40px;
+        	
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  font-family: Google Sans;
+  font-size: 20px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+#myBtn {
+  width: 70px;
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:  #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 400px;
+}
+
+#myBtn:hover {
+  background-color:red;
+}
+ h5{
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        
+    }
+h1 {
+    font-family: Merriweather;
+    font-size: 100px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+h3 {
+    font-family:Montserrat;
+    font-size: 60px;
+    font-weight: normal;
+    color: #0000ff;
+    text-align: center;
+}
+h2 {
+    font-family: Sacramento;
+    font-size: 100px;
+    font-weight: normal;
+    color: red;
+    text-align: center;
+}
+#Clickme {
+    font-size: 40px;
+    background-color: Red;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+
+}
+#Clickme:hover{
+    background-color:  #db9494;   
+}
+a{
+    color: #0008ff;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+    text-decoration: none;
+}
+abbr{
+    text-decoration: none;
+}
+abbr:hover{
+    text-decoration: none;
+}
+h4 {
+    font-family: Google Sans;
+    font-size: 40px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+}
+body {
+    margin: 10px 30px 10px 35px;
+    background-image: url("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulus-cloud.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1400px ;
+}
+h1 {
+    background-color: yellow;
+}

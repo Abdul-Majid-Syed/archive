@@ -1,0 +1,695 @@
+﻿<!--Copyright 2020 by Abdul Majid Syed
+ Any induvidual, group or organization found reproducing, imitating or copying any information from this website are liable to procecution-->
+
+
+
+
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZTFG8F');</script>
+<!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173518758-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173518758-1');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Abdul Majid Syed, Codehs">
+    <meta name="description" content="Abdul Majid Syed's Website">
+    <meta name="author" content="Abdul Majid Syed">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <script src="script.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:300,400,500,700">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"/>
+      <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap" rel="stylesheet">
+      
+      <!--Bootstrap-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <title>Abdul Majid Syed</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+
+    </head>
+
+
+<link rel="icon" href="data:image/jpeg;base64,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" type="image/gif" sizes="16x16">
+
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><svg>
+<path  d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+</svg></button>
+<div id="cookieConsent">
+    
+    We use cookies to enhance our website and to make it user friendly. By continuing you agree with the <a href="https://policies.google.com/technologies/cookies?hl=en-US" target="_blank">Cookie Policy</a> <button id="closeCookieConsent" onclick="document.getElementById("cookieConsent").style.display = "none";>Accept and Close</button>. 
+</div>
+
+<script>
+$(document).ready(function(){   
+    setTimeout(function () {
+        $("#cookieConsent").fadeIn(200);
+     }, 4000);
+    $("#closeCookieConsent, .cookieConsentOK").click(function() {
+        $("#cookieConsent").fadeOut(200);
+    }); 
+}); 
+$('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
+$(window).on('load', function(){
+  setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
+});
+function removeLoader(){
+    $( "#loadingDiv" ).fadeOut(500, function() {
+      // fadeOut complete. Remove the loading div
+      $( "#loadingDiv" ).remove(); //makes page more lightweight 
+      jQuery('body').css('opacity', 1);
+  });  
+}
+</script>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZTFG8F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="topnav">
+<script async src="https://cse.google.com/cse.js?cx=007523420378249589520:qwsi4f6po4q"></script>
+<div class="gcse-search"></div>
+</div>
+
+
+<span id="navbar"onclick="openNav()">? </span><<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a onclick="closeNav();" href="#section4">About Me</a>
+    <a onclick="closeNav();" href="#section5">What's Coding?</a>
+    <a onclick="closeNav();" href="#section6">How did you do that?!</a>
+    <a onclick="closeNav();" href="#section7">What's that?</a>
+    <a onclick="closeNav();" href="#section8">So where does the website come in this?</a>
+    <a onclick="closeNav();" href="#section9">Some coding languages</a>
+    <a onclick="closeNav();" href="#section10">A small game</a>
+    <a onclick="closeNav();" href="#section11">Contact Us</a>
+  </div>
+</div>
+<div id="section1">
+ <h1>Welcome to Abdul Majid Syed's website!</h1>
+ </div>
+
+ <div  id="section2">
+ <style>
+.parallax {
+  /* The image used */
+  background-image: url("https://cdn.businesstraveller.com/wp-content/uploads/fly-images/819021/Passenger-airplane-taking-o-916x516.jpg");
+
+  /* Set a specific height */
+  min-height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#loadingDiv{
+color: #fffff;
+opacity:100%;
+}
+.loader,
+.loader:before,
+.loader:after {
+opacity:100%;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.loader {
+opacity:100%;
+  color: #fffff;
+  font-size: 10px;
+  margin: 80px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+
+}
+.loader:before,
+.loader:after {
+opacity:100%;
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.loader:before {
+opacity:100%;
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+opacity:100%;
+  left: 3.5em;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+</style>
+ <div class="parallax"></div>
+ </div>
+ 
+ <div  id="section3"> 
+ <h3>Welcome to Abdul Majid Syed's website. Read on to know more!</h3>
+ 
+
+    </div>
+    <div  id="section4">
+ <h2>About Me</h2>
+
+ <h4> Hello there, Abdul Majid Syed here. Thank you for visiting my webpage. I am an eighth grader studying in a school in Chennai, India. This was my first venture in coding, and I have successfully made my own website! </h4>
+ </div>
+ <div  id="section5">
+ <h2>What's coding?</h2>
+ 
+ 
+ <h4>Good question. Ever imagined how your mobile phone works? Or your computer? Well, even they, like us have a language. And like us they too have a lot of languages, which are used for a wide range of uses like web designing, app designing etc. So <a href="https://www.computersciencedegreehub.com/faq/what-is-coding/">coding </a> is the language (or code), which the computer uses for all its work. You can use them to do a lot. <a href="https://codehs.com/sandbox/abdulmajidsyed/">Here </a> is the list of programs I have made. Hope you enjoy them!. </h4>
+ </div>
+              <div id="topBanner" class="topBanner">
+              <ins class="adsbygoogle topBannerIns"
+                   data-ad-client="ca-pub-6406277318721692"
+                   data-ad-slot="9871227142"></ins>
+            </div>
+ <div  id="section6">
+ <h2> How did you do that?!</h2>
+ <h4> Well, that's how I felt in the beginning! Don't worry, it is easy even if you don't have any background knowledge in computer science (like me). I started my venture in CodeHS, where I took up the first free course in programming the "Introduction to programming with Karel the Dog". And believe me it was initially a bit hard (especially the typing), but when you get used to it is really fun and interesting. </h4>
+ </div>
+ <div id="section7">
+<h2> What's that?</h2>
+<h4> <a href = "https://codehs.com/">CodeHS</a> is a programming made simple website which has devised a curriculum to make the seemingly boring coding into an understandable, fun and enjoyable curriculum using a dog named Karel. There are multiple curriculums, courses and more available for teachers and students likewise, some free of cost and some with a cost. Many teachers and students have found CodeHS very helpful. Click  <a href = "https://codehs.com/info/stories"> here</a> to know more  </h4>
+</div>
+<div  id="section8">
+<h2> So where does the website come in this?</h2>
+<h4> Making a website is part of the course in "Introduction to programming with Karel the Dog". But there are also other courses where you get to learn about websites and them including the <a href = "https://codehs.com/info/curriculum/web_design">Web Designing</a> course.  </h4>
+</div>
+<div  id="section9">
+<h2> Some coding languages</h2>
+<h4> Here are some coding languages. Depending on your necessity and need you can choose from them as they are used for a wide range of needs </h4>
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/HTML"><abbr title="Hypertext Markup Language">HTML</abbr></a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"><abbr title="Cascading Style Sheets">CSS</abbr> </a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>  </li>
+    <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> </li>
+    <li><a href="https://en.wikipedia.org/wiki/C_(programming_language)">C language</a> </li>
+    <li><a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a> </li>
+    <li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a> </li>
+    <li><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a> </li>
+    <li><a href="https://en.wikipedia.org/wiki/Kotlin_(programming_language)">Kotlin</a> </li>
+    <li><a href="https://en.wikipedia.org/wiki/Go_(programming_language)">Go</a> </li>
+    <li><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><abbr title="C Sharp">C#</abbr></a> </li>
+    <li><a href="https://en.wikipedia.org/wiki/PHP"> <abbr title="Hypertext Preprocessor">PHP</abbr>  </a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)"> Sass </a></li>
+    <li><a href="https://en.wikipedia.org/wiki/SQL"><abbr title="Structured Query Language">SQL</abbr> </a></li>
+    <li><a href="https://en.wikipedia.org/wiki/TypeScript">TypeScript </a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Haskell </a></li>
+    <li><a href="https://en.wikipedia.org/wiki/JSON"> <abbr title="JavaScript Object Notation">JSON</abbr></a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Scala_(programming_language)"> Scala</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Perl"> Perl</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Stylus_(stylesheet_language)"> Stylus</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Less_(stylesheet_language)"> Less </a></li>
+    
+    
+</ul>
+
+</div>
+<div  id="section10">
+<h2> A small game</h2>
+<h4> So you've gone through the whole thing (might have been boring, I don't deny it), it's time for some fun. You can see a button below, which says 'Click Me'. Just click on it.  </h4>
+<br>
+<br>
+<button id="Clickme"; onclick="myFunction()">Click Me</button>
+
+<p id="demo" style="color:white;"></p>
+
+
+<script>
+
+</script>
+<br>
+<br>
+</div>
+<div id="section11">
+<h2>Contact Us</h2>
+<h4>Have some doubts? Want to clear them? Feel free to contact us throught the button below. We will do our best to help you!</h4>
+</div>
+<br>
+<br>
+<div  class="container">
+<div class="vertical-center">
+        
+        <button  class="btn" onclick= window.location.assign("contact.html"); >CONTACT US</button>
+    </div>
+    </div>
+<br>
+<br>
+<div id="section11">
+<h3> Thank You very much. I hope you have benefitted a lot from this. Thank You again, and I hope to see you soon. I will keep updating my website, and till  then Farewell! </h3>
+<center>
+<img src = "https://media.tenor.com/images/42e3e69edeaeab3421559aba7e638e1f/tenor.gif" alt="Image not found" style="width:500px;">
+</center>
+</div>
+<br>
+
+
+</div>
+<footer>
+
+<script type="text/javascript">
+ var vsid = "kc20504";
+ (function() { 
+ var vsjs = document.createElement('script'); vsjs.type = 'text/javascript'; vsjs.async = true; vsjs.setAttribute('defer', 'defer');
+  vsjs.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.leadchatbot.com/vsa/chat.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vsjs, s);
+ })();
+</script>
+
+
+</footer>
+
+<style>
+
+
+/*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 200px;
+    font-size: 30px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 70px 0 8px 30px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #4B8EE7;
+    text-decoration: none;
+}
+#closeCookieConsent {
+      background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+#closeCookieConsent:hover {
+    color: #4CAF50;
+    background-color:white;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #F1D600;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 20px 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0px 60px 70px 10px;
+    height:70px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+}
+/*Cookie Consent End*/
+    .btn{
+        margin-left: 430px;
+        background-color: #28decf;
+        height: 70px;
+        width: 200px;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        border-radius: 15px;
+        position:center;
+    }
+    .btn:hover{
+        background-color: #f5f5f5;
+    }
+    p {
+    font-size: 50px;
+    }
+
+ul{
+    font-size: 40px;
+        	
+}
+
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+#myBtn {
+-webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color:red;
+    border-radius: 50%;
+    bottom: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    color: white;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 56px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 56px;
+    min-width: 0;
+    overflow: visible;
+    position: fixed;
+    right: 20px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: background-color,box-shadow;
+    transition-property: background-color,box-shadow;
+    -webkit-transition-timing-function: cubic-bezier(.4,0,1,1);
+    transition-timing-function: cubic-bezier(.4,0,1,1);
+    vertical-align: middle;
+    width: 56px;
+    z-index: 80;
+}
+
+#myBtn:hover {
+  transition:0.5s;
+  background-color: white;
+  color: red;
+}
+#navbar {
+-webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color:black;
+    border-radius: 50%;
+    top: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    color: white;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 56px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 56px;
+    min-width: 0;
+    overflow: visible;
+    position: fixed;
+    left: 20px;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: background-color,box-shadow;
+    transition-property: background-color,box-shadow;
+    -webkit-transition-timing-function: cubic-bezier(.4,0,1,1);
+    transition-timing-function: cubic-bezier(.4,0,1,1);
+    vertical-align: middle;
+    width: 56px;
+    z-index: 80;
+    cursor:pointer;
+}
+#navbar:hover {
+    transition:0.3s;
+    color:black;
+    background-color:white;
+}
+ h5{
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        
+    }
+h1 {
+    font-family: Merriweather;
+    font-size: 100px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+h3 {
+    font-family:Montserrat;
+    font-size: 60px;
+    font-weight: normal;
+    color: #0000ff;
+    text-align: center;
+    color:#ffed4f;
+}
+h2 {
+    font-family: Sacramento;
+    font-size: 100px;
+    font-weight: normal;
+    color: red;
+    text-align: center;
+}
+#Clickme {
+    font-size: 40px;
+    background-color: Red;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    border-radius:15px;
+}
+#Clickme:hover{
+    background-color: white;
+    color: red;
+    transition:0.5s;
+}
+a{
+    color: pink;
+    text-decoration: underline;
+}
+a:hover{
+    color: #eaf6f6;
+    text-decoration: none;
+    
+}
+abbr{
+    text-decoration: none;
+}
+abbr:hover{
+    text-decoration: none;
+}
+h4 {
+    font-family: Google Sans;
+    font-size: 40px;
+    font-weight: normal;
+    color: #b5f0ff;
+    text-align: left;
+}
+body {
+    margin: 10px 30px 10px 35px;
+    background-image: url("https://lh4.googleusercontent.com/proxy/FRdYfbuItbylUZDltgHwySzFaduAHVIQmIH8lsIGi6vywnvogbellHl5m-1kjg4-caAfvP21IVPzxcbiERqx-KfUVuiPARxQ_aWHg6FH_7lE=w3840-h2160-p-k-no-nd-mv");
+    background-repeat: no-repeat;
+    background-size: auto ;
+    opacity: 0.1;
+        background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    background-color: yellow;
+}    
+    
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: scroll;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+</style>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+    
+
+    
+
+</body>
+
+
+ 
+</html>

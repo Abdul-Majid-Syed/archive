@@ -1,0 +1,34 @@
+﻿﻿
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<p>Click the button to display the time difference between UTC and local time.</p>
+
+
+<div id="time"></div>
+<p id="demo"></p>
+<script>
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        document.write("Geolocation is not supported by this browser.");
+    }
+
+     function showPosition(position) {
+        var long = position.coords.longitude;
+        console.log(long);
+        var min = long * 4;
+        var today = new Date();
+        today.setMinutes( today.getMinutes() + min );
+        var str = today.toGMTString();
+        document.write(str);
+    }
+
+
+</script>
+
+</body>
+</html>
